@@ -12,6 +12,7 @@ SECRET_KEY = '4q8o#0t5-6vc*3mxbwand3e2v57a+u-2wyhc)@3%cu#lrm*xep'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# APPEND_SLASH = True
 
 ALLOWED_HOSTS = []
 
@@ -26,7 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'backend.app.flower',
+    'backend.app.product',
 
 ]
 
