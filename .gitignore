@@ -1,6 +1,7 @@
 # IntelliJ IDEA
 .idea
 venv/
+env/
 
 
 # Test file
